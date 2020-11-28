@@ -24,13 +24,13 @@ Exploratory data analysis brought us a few useful insights into our dataset. The
 
 ## Data Preprocessing
 
-Load the dataset using pandas. As per conclusions from the graphs plotted during EDA, we dropped 2 columns - job_id and salary_range dur to the high number of missing values. The categorical variables containing textual data were left untouched. However, those with 1 and 0 were replaced to ensure even the presence or absence of data and values of most of the columns are accounted for. For example, 'telecommuting' contains 1 to indicate telecommuting was required and 0 to indicate it was not a requirement. They were replaced with values as follows :
+Load the dataset using pandas. As per conclusions from the graphs plotted during EDA, we dropped 2 columns - job_id and salary_range due to the high number of missing values. The categorical variables containing textual data were left untouched. However, those with 1 and 0 were replaced to ensure even the presence or absence of data and values of most of the columns are accounted for. For example, 'telecommuting' contains 1 to indicate telecommuting was required and 0 to indicate it was not a requirement. They were replaced with values as follows :
 Value  |Replacement
 | :--- | :---
 1  | telecommuting
 0  | no telecommuting
 
-After this, columns were all combined into one column - 'text' where regex was used for further cleaning. We removed punctuations, unwanted spaces, special characters adn so on. The resulting text column was now lemmatized. The script is available [here](https://github.com/NehaKohad/DataAnalytics-We-re_Skewed/blob/master/Data%20Preprocessing.ipynb).
+After this, columns were all combined into one column - 'text' where regex was used for further cleaning. We removed punctuations, unwanted spaces, special characters and so on. The resulting text column was now lemmatized. The script is available [here](https://github.com/NehaKohad/DataAnalytics-We-re_Skewed/blob/master/Data%20Preprocessing.ipynb).
 
 ## Model Building
 ### Splitting Data into Train and Test Sets
@@ -44,7 +44,7 @@ We compared performance of the following classfiers using accuracy and specifici
 * Random Forest (RF)
 * Multinomial Naive Bayes (MNB)
 * Logistic Regression (LR)
-Going through each fold iteratively, train and test splits were generated. Every classifier was trained and tested on teh current split. Accuracy and Specificty was recorded per classifer per fold for comparison. 
+Going through each fold iteratively, train and test splits were generated. Every classifier was trained and tested on the current split. Accuracy and Specificty was recorded per classifer per fold for comparison. 
 
 ## Evaluation
 
