@@ -16,11 +16,11 @@ Make sure the following python libraries/ modules are available on your system
 
 ## General Approach
 
-To compare classification models trained on preprocessed dataset that contains combiined data from all other columns in the form of text. Preprocessing is done to ensure even the presence or absence of data and values of most of the columns are accounted for.
+To compare classification models trained on preprocessed dataset that contains combined data from all other columns in the form of text. Preprocessing is done to ensure even the presence or absence of data and values of most of the columns are accounted for.
 
 ## EDA and Visualization
 
-Exploratory data analysis brought us a few useful insights into our dataset. The code is outlined in this [notebook](https://github.com/NehaKohad/DataAnalytics-We-re_Skewed/blob/master/EDA_and_Visualization.ipynb).Our dataset has an imabalance with very few job postings of fake job postings. We dealt with duplicates and missing data as outlined in <put link>. Assessing every column involved replacing the NaN values with "missing" as we wanted to retain the information about presence and absence of data as well.
+Exploratory data analysis brought us a few useful insights into our dataset. The code is outlined in this [notebook](https://github.com/NehaKohad/DataAnalytics-We-re_Skewed/blob/master/EDA_and_Visualization.ipynb).Our dataset has an imbalance with very few job postings of fake job postings. We dealt with duplicates and missing data as outlined in <put link>. Assessing every column involved replacing the NaN values with "missing" as we wanted to retain the information about presence and absence of data as well.
 
 ## Data Preprocessing
 
