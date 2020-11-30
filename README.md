@@ -59,3 +59,10 @@ K Nearest Neighbours  | 97.87  | 97.5
 Logistic Regression  | 96.74  | 99.6
 Random Forest  | 98.23  |  97.4
 Multinomial Naive Bayes  | 98.62 |  94.55
+
+## Instructions for execution
+
+- The Data Prepocessing.ipynb file contains the data preprocessing and cleaning code. The csv file used that has to used to run the code is 'fake_job_postings.cvs' .
+  Running this file generates a new csv file 'preprocessed.csv'
+- The Model_Building.ipynb is the next file to be executed. It uses the 'preprocessed.csv' file that was generated earlier. Running the code displays the results mentioned above.
+- EDA_Visualization.ipynb contains the code that generates the graphs found in the folder named 'Graphs'.
